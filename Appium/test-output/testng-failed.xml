@@ -5,7 +5,9 @@
     <classes>
       <class name="com.appium.Appium.Base">
         <methods>
-          <include name="configuration"/>
+          <include name="startServer"/>
+          <include name="stopService"/>
+          <include name="startSession"/>
         </methods>
       </class> <!-- com.appium.Appium.Base -->
     </classes>

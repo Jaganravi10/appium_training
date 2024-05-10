@@ -1,16 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-09T18:53:08 IST" name="Default suite" finished-at="2024-05-09T18:53:21 IST" duration-ms="12686">
+  <suite started-at="2024-05-10T13:52:18 IST" name="Default suite" finished-at="2024-05-10T13:52:18 IST" duration-ms="94">
     <groups>
     </groups>
-    <test started-at="2024-05-09T18:53:08 IST" name="Default test" finished-at="2024-05-09T18:53:21 IST" duration-ms="12686">
+    <test started-at="2024-05-10T13:52:18 IST" name="Default test" finished-at="2024-05-10T13:52:18 IST" duration-ms="94">
       <class name="com.appium.Appium.Base">
-        <test-method signature="configuration()[pri:0, instance:com.appium.Appium.Base@9597028]" started-at="2024-05-09T18:53:08 IST" name="configuration" finished-at="2024-05-09T18:53:21 IST" duration-ms="12652" status="PASS">
+        <test-method is-config="true" signature="startServer()[pri:0, instance:com.appium.Appium.Base@5fe94a96]" started-at="2024-05-10T13:52:18 IST" name="startServer" finished-at="2024-05-10T13:52:18 IST" duration-ms="31" status="FAIL">
+          <exception class="io.appium.java_client.service.local.InvalidServerInstanceException">
+            <message>
+              <![CDATA[The main Appium script does not exist at 'C:\Users\Guest_Jagan\git\repository\Appium\appiumMainJsPath']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.appium.java_client.service.local.InvalidServerInstanceException: The main Appium script does not exist at 'C:\Users\Guest_Jagan\git\repository\Appium\appiumMainJsPath'
+at io.appium.java_client.service.local.AppiumServiceBuilder.validatePath(AppiumServiceBuilder.java:131)
+at io.appium.java_client.service.local.AppiumServiceBuilder.loadPathToMainScript(AppiumServiceBuilder.java:295)
+at io.appium.java_client.service.local.AppiumServiceBuilder.createArgs(AppiumServiceBuilder.java:362)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:510)
+at io.appium.java_client.service.local.AppiumDriverLocalService.buildService(AppiumDriverLocalService.java:91)
+at com.appium.Appium.Base.startServer(Base.java:28)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:655)
+at org.testng.TestRunner.beforeRun(TestRunner.java:644)
+at org.testng.TestRunner.run(TestRunner.java:610)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.appium.java_client.service.local.InvalidServerInstanceException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- configuration -->
+        </test-method> <!-- startServer -->
+        <test-method signature="startSession()[pri:0, instance:com.appium.Appium.Base@5fe94a96]" started-at="2024-05-10T13:52:18 IST" name="startSession" finished-at="2024-05-10T13:52:18 IST" duration-ms="0" status="SKIP">
+          <exception class="io.appium.java_client.service.local.InvalidServerInstanceException">
+            <message>
+              <![CDATA[The main Appium script does not exist at 'C:\Users\Guest_Jagan\git\repository\Appium\appiumMainJsPath']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.appium.java_client.service.local.InvalidServerInstanceException: The main Appium script does not exist at 'C:\Users\Guest_Jagan\git\repository\Appium\appiumMainJsPath'
+at io.appium.java_client.service.local.AppiumServiceBuilder.validatePath(AppiumServiceBuilder.java:131)
+at io.appium.java_client.service.local.AppiumServiceBuilder.loadPathToMainScript(AppiumServiceBuilder.java:295)
+at io.appium.java_client.service.local.AppiumServiceBuilder.createArgs(AppiumServiceBuilder.java:362)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:510)
+at io.appium.java_client.service.local.AppiumDriverLocalService.buildService(AppiumDriverLocalService.java:91)
+at com.appium.Appium.Base.startServer(Base.java:28)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:655)
+at org.testng.TestRunner.beforeRun(TestRunner.java:644)
+at org.testng.TestRunner.run(TestRunner.java:610)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.appium.java_client.service.local.InvalidServerInstanceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startSession -->
+        <test-method is-config="true" signature="stopService()[pri:0, instance:com.appium.Appium.Base@5fe94a96]" started-at="2024-05-10T13:52:18 IST" name="stopService" finished-at="2024-05-10T13:52:18 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopService -->
       </class> <!-- com.appium.Appium.Base -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
