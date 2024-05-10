@@ -19,7 +19,7 @@ public class Base {
 	
 	public static AppiumDriverLocalService service;
 	public static String nodeExePath = "C:\\Program Files\\nodejs\\node.exe";
-	public static String appiumMainJsPath = "C:\\Users\\Guest_Jagan\\AppData\\Roaming\\npm\\node_modules\\appium\\build\\lib\\main.js"; 
+	public static String nodeMainJsPath = "C:\\Users\\Guest_Jagan\\AppData\\Roaming\\npm\\node_modules\\appium\\build\\lib\\main.js"; 
 	public static String serverAddress = "127.0.0.1";	
 	
 	@BeforeTest
@@ -27,7 +27,7 @@ public class Base {
 		
 		service = AppiumDriverLocalService.buildService(new AppiumServiceBuilder()
 				.usingDriverExecutable(new File("nodeExePath"))
-				.withAppiumJS(new File("appiumMainJsPath"))
+				.withAppiumJS(new File("nodeMainJsPath"))
 				.withIPAddress("serverAddress")
 				.withArgument(GeneralServerFlag.BASEPATH, "/wd/hub")
 				.usingPort(4723).withLogFile(new File("C:\\Users\\Guest_Jagan\\Desktop\\AppiumServerLog.txt")));

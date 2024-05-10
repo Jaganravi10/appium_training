@@ -2,18 +2,18 @@
 <testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-10T13:59:15 IST" name="Default suite" finished-at="2024-05-10T13:59:15 IST" duration-ms="96">
+  <suite started-at="2024-05-10T14:24:52 IST" name="Default suite" finished-at="2024-05-10T14:24:52 IST" duration-ms="118">
     <groups>
     </groups>
-    <test started-at="2024-05-10T13:59:15 IST" name="Default test" finished-at="2024-05-10T13:59:15 IST" duration-ms="96">
+    <test started-at="2024-05-10T14:24:52 IST" name="Default test" finished-at="2024-05-10T14:24:52 IST" duration-ms="118">
       <class name="com.appium.Appium.Base">
-        <test-method is-config="true" signature="startServer()[pri:0, instance:com.appium.Appium.Base@765d7657]" started-at="2024-05-10T13:59:15 IST" name="startServer" finished-at="2024-05-10T13:59:15 IST" duration-ms="30" status="FAIL">
+        <test-method is-config="true" signature="startServer()[pri:0, instance:com.appium.Appium.Base@5fe94a96]" started-at="2024-05-10T14:24:52 IST" name="startServer" finished-at="2024-05-10T14:24:52 IST" duration-ms="34" status="FAIL">
           <exception class="io.appium.java_client.service.local.InvalidServerInstanceException">
             <message>
-              <![CDATA[The main Appium script does not exist at 'C:\Users\Guest_Jagan\git\repository\Appium\appiumMainJsPath']]>
+              <![CDATA[The main Appium script does not exist at 'C:\Users\Guest_Jagan\git\repository\Appium\nodeMainJsPath']]>
             </message>
             <full-stacktrace>
-              <![CDATA[io.appium.java_client.service.local.InvalidServerInstanceException: The main Appium script does not exist at 'C:\Users\Guest_Jagan\git\repository\Appium\appiumMainJsPath'
+              <![CDATA[io.appium.java_client.service.local.InvalidServerInstanceException: The main Appium script does not exist at 'C:\Users\Guest_Jagan\git\repository\Appium\nodeMainJsPath'
 at io.appium.java_client.service.local.AppiumServiceBuilder.validatePath(AppiumServiceBuilder.java:131)
 at io.appium.java_client.service.local.AppiumServiceBuilder.loadPathToMainScript(AppiumServiceBuilder.java:295)
 at io.appium.java_client.service.local.AppiumServiceBuilder.createArgs(AppiumServiceBuilder.java:362)
@@ -48,13 +48,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startServer -->
-        <test-method signature="startSession()[pri:0, instance:com.appium.Appium.Base@765d7657]" started-at="2024-05-10T13:59:15 IST" name="startSession" finished-at="2024-05-10T13:59:15 IST" duration-ms="0" status="SKIP">
+        <test-method signature="startSession()[pri:0, instance:com.appium.Appium.Base@5fe94a96]" started-at="2024-05-10T14:24:52 IST" name="startSession" finished-at="2024-05-10T14:24:52 IST" duration-ms="1" status="SKIP">
           <exception class="io.appium.java_client.service.local.InvalidServerInstanceException">
             <message>
-              <![CDATA[The main Appium script does not exist at 'C:\Users\Guest_Jagan\git\repository\Appium\appiumMainJsPath']]>
+              <![CDATA[The main Appium script does not exist at 'C:\Users\Guest_Jagan\git\repository\Appium\nodeMainJsPath']]>
             </message>
             <full-stacktrace>
-              <![CDATA[io.appium.java_client.service.local.InvalidServerInstanceException: The main Appium script does not exist at 'C:\Users\Guest_Jagan\git\repository\Appium\appiumMainJsPath'
+              <![CDATA[io.appium.java_client.service.local.InvalidServerInstanceException: The main Appium script does not exist at 'C:\Users\Guest_Jagan\git\repository\Appium\nodeMainJsPath'
 at io.appium.java_client.service.local.AppiumServiceBuilder.validatePath(AppiumServiceBuilder.java:131)
 at io.appium.java_client.service.local.AppiumServiceBuilder.loadPathToMainScript(AppiumServiceBuilder.java:295)
 at io.appium.java_client.service.local.AppiumServiceBuilder.createArgs(AppiumServiceBuilder.java:362)
@@ -89,7 +89,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startSession -->
-        <test-method is-config="true" signature="stopService()[pri:0, instance:com.appium.Appium.Base@765d7657]" started-at="2024-05-10T13:59:15 IST" name="stopService" finished-at="2024-05-10T13:59:15 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="stopService()[pri:0, instance:com.appium.Appium.Base@5fe94a96]" started-at="2024-05-10T14:24:52 IST" name="stopService" finished-at="2024-05-10T14:24:52 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopService -->
